@@ -3,7 +3,7 @@ def countdown(i):
     if i <= 0:
         return
     else:
-        countdown(i-1)
+        countdown(i - 1)
 
 
 def greet(name):
@@ -25,4 +25,4 @@ def fact(x):
     if x == 1:
         return 1
     else:
-        return x * fact(x-1)
+        return x * fact(x - 1)
