@@ -5,7 +5,7 @@ from src.selection_sort import findSmallest, selectionSort
 
 class TestSelectionSort(unittest.TestCase):
     def test_findSmallest_ints(self):
-        self.assertEqual(findSmallest([1,2,3]), 0)
+        self.assertEqual(findSmallest([1, 2, 3]), 0)
 
     def test_findSmallest_not_ints(self):
         with self.assertRaises(AssertionError):
